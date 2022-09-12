@@ -3511,16 +3511,8 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										"description": ".7.",
 										"rowId": `${prefix}searchmenu`
 									},
-									{
-											"title": "قائمة صور الانمي",
-										"description": ".8.",
-										"rowId": `${prefix}randommenu`
-										},
-										{
-											"title": "قائمة ملصقات الانمي",
-										"description": ".9.",
-										"rowId": `${prefix}randomanimemenu`
-										},
+									
+										
 										{
 											"title": "قائمة السخرية",
 										"description": ".10.",
@@ -3559,10 +3551,10 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "المملكة",
+								"title": "الأذكار.",
 								"rows": [
 									{
-										"title": "قائمة استمارات مملكة غولد",
+										"title": "جروب الأذكار.",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
@@ -3572,7 +3564,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "نبذة",
 								"rows": [
 									{
-										"title": "تاريخ مملكة غولد",
+										"title": "نبذة عن ماد.",
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3590,11 +3582,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             }
             break
             case 'التسجhgjيل': case 'التسجيل': {
-                reply(`「 الفرع الخاص ل التعليم على البوت 」◣
+                reply(`「  جروب الأذكار  」◣
 
-「 _https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3_ 」◣
+「 https://chat.whatsapp.com/IEZhOevPUYrBHpcsdwr8Pw 」◣
 
-「 نرحب بالجميع. 」◣`)
+「 🤡💞. 」◣`)
             }
             break
 case '9807786789678': {
@@ -3602,7 +3594,6 @@ case '9807786789678': {
 ┏━「 *${botname}* 」━━⭓ 
 ┃╔══☯︎「 MAIN 」☯︎
 ┃╠ ${prefix}alive
-┃╠ ${prefix}script
 ┃╠ ${prefix}speedtest
 ┃╠ ${prefix}ping
 ┃╠ ${prefix}owner
@@ -3612,8 +3603,6 @@ case '9807786789678': {
 ┃╠ ${prefix}quoted
 ┃╠ ${prefix}listpc
 ┃╠ ${prefix}listgc
-┃╠ ${prefix}donate
-┃╠ ${prefix}report [bug]
 ┃╠══✪「 OWNER 」 ☯︎
 ┃╠ ${prefix}chat [option]
 ┃╠ ${prefix}join [link]
@@ -3658,14 +3647,9 @@ case '9807786789678': {
 ┃╠═✪「 DOWNLOADER 」☯︎
 ┃╠${prefix}ytmp3 [url|quality]
 ┃╠${prefix}ytmp4 [url|quality]
-┃╠${prefix}getmusic [yt link]
 ┃╠${prefix}getvideo [yt link]
-┃╠${prefix}umma [query]
-┃╠${prefix}joox [query]
-┃╠${prefix}soundcloud [url]
 ┃╠══✪「 SEARCHER 」 ☯︎
 ┃╠${prefix}play [query]
-┃╠${prefix}song [query]
 ┃╠${prefix}yts [query]
 ┃╠${prefix}google [query]
 ┃╠${prefix}gimage [query]
@@ -3673,40 +3657,9 @@ case '9807786789678': {
 ┃╠${prefix}wallpaper [query]
 ┃╠${prefix}wikimedia [query]
 ┃╠${prefix}ytsearch [query]
-┃╠${prefix}ringtone [query]
-┃╠${prefix}webtoon [query]
 ┃╠══✪「 RANDOM 」☯︎
 ┃╠${prefix}coffee
 ┃╠${prefix}animequote (indo)
-┃╠${prefix}couplepp
-┃╠═✪「 RANDOM ANIME 」☯︎
-┃╠${prefix}loli
-┃╠${prefix}bully
-┃╠${prefix}cuddle
-┃╠${prefix}cry
-┃╠${prefix}hug
-┃╠${prefix}awoo
-┃╠${prefix}kiss
-┃╠${prefix}lick
-┃╠${prefix}pat
-┃╠${prefix}smug
-┃╠${prefix}bonk
-┃╠${prefix}yeet
-┃╠${prefix}blush
-┃╠${prefix}smile
-┃╠${prefix}wave
-┃╠${prefix}highfive
-┃╠${prefix}handhold
-┃╠${prefix}nom
-┃╠${prefix}glomp
-┃╠${prefix}bite
-┃╠${prefix}slap
-┃╠${prefix}kill
-┃╠${prefix}happy
-┃╠${prefix}wink
-┃╠${prefix}poke
-┃╠${prefix}dance
-┃╠${prefix}cringe
 ┃╠══✪「 FUN 」 ☯︎
 ┃╠ ${prefix}how [text
 ┃╠ ${prefix}when [text]
@@ -3714,42 +3667,25 @@ case '9807786789678': {
 ┃╠ ${prefix}what [text]
 ┃╠ ${prefix}can [text]
 ┃╠ ${prefix}rate [text]
-┃╠ ${prefix}wangy [text]
 ┃╠ ${prefix}beautifulcheck [tag]
 ┃╠ ${prefix}awesomecheck [tag]
 ┃╠ ${prefix}prettycheck [tag]
-┃╠ ${prefix}lesbiancheck [tag]
-┃╠ ${prefix}gaycheck [tag]
 ┃╠ ${prefix}cutecheck [tag]
 ┃╠ ${prefix}uglycheck [tag]
-┃╠ ${prefix}hornycheck [tag]
 ┃╠ ${prefix}charactercheck [tag]
 ┃╠ ${prefix}lovelycheck [tag]
-┃╠ ${prefix}couple
 ┃╠ ${prefix}mysoulmate
-┃╠ ${prefix}hot
-┃╠ ${prefix}sexy
 ┃╠ ${prefix}kind
 ┃╠ ${prefix}idiot
 ┃╠ ${prefix}handsome
 ┃╠ ${prefix}beautiful
 ┃╠ ${prefix}cute
 ┃╠ ${prefix}pretty
-┃╠ ${prefix}lesbian
 ┃╠ ${prefix}noob
-┃╠ ${prefix}bastard
 ┃╠ ${prefix}foolish
 ┃╠ ${prefix}nerd
-┃╠ ${prefix}asshole
-┃╠ ${prefix}gay
 ┃╠ ${prefix}smart
-┃╠ ${prefix}stubble
-┃╠ ${prefix}dog
-┃╠ ${prefix}horny
-┃╠ ${prefix}cunt
-┃╠ ${prefix}wibu
 ┃╠ ${prefix}tictactoe
-┃╠ ${prefix}delttt
 ┃╠ ${prefix}guess [option]
 ┃╠ ${prefix}math [mode]
 ┃╠ ${prefix}suitpvp [tag]
@@ -3761,7 +3697,6 @@ case '9807786789678': {
 ┃╠ ${prefix}togif [reply stick]
 ┃╠ ${prefix}tourl [reply img]
 ┃╠ ${prefix}tovn [reply aud]
-┃╠ ${prefix}tomp3 [reply vn]
 ┃╠ ${prefix}toaudio [reply vid]
 ┃╠ ${prefix}ebinary [reply txt]
 ┃╠ ${prefix}dbinary [reply txt]
@@ -3794,38 +3729,7 @@ case '9807786789678': {
 ┃╠${prefix}squirrel [reply aud]
 ┃╠══✪「 ISLAMIC 」☯︎
 ┃╠${prefix}juzamma
-┃╠══✪「 HOROSCOPE 」☯︎
-┃╠${prefix}nomorhoki (indo)
-┃╠${prefix}artimimpi (indo)
-┃╠${prefix}artinama (indo)
-┃╠${prefix}ramaljodoh (indo)
-┃╠${prefix}ramaljodohbali (indo)
-┃╠${prefix}suamiistri (indo)
-┃╠${prefix}ramalcinta (indo)
-┃╠${prefix}cocoknama (indo)
-┃╠${prefix}pasangan (indo)
-┃╠${prefix}jadiannikah (indo)
-┃╠${prefix}sifatusaha (indo)
-┃╠${prefix}rezeki (indo)
-┃╠${prefix}pekerjaan (indo)
-┃╠${prefix}nasib (indo)
-┃╠${prefix}penyakit (indo)
-┃╠${prefix}tarot (indo)
-┃╠${prefix}fengshui (indo)
-┃╠${prefix}haribaik (indo)
-┃╠${prefix}harisangar (indo)
-┃╠${prefix}harisial (indo)
-┃╠${prefix}nagahari (indo)
-┃╠${prefix}arahrezeki (indo)
-┃╠${prefix}peruntungan (indo)
-┃╠${prefix}weton (indo)
-┃╠${prefix}karakter (indo)
-┃╠${prefix}keberuntungan (indo)
-┃╠${prefix}memancing (indo)
-┃╠${prefix}masasubur (indo)
-┃╠${prefix}zodiak (indo)
-┃╠${prefix}shio (indo)
-┃╚═══════✍︎𝑁𝑒𝑥𝑢𝑠𝑁𝑤
+┃╚═══════*Mád.*
 ┗━「 *Created By ${ownername}*  𖠌」━⭓`
     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
