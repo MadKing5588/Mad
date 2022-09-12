@@ -19,30 +19,30 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['96891103640']
-global.premium = ['96891103640']
-global.ownernomer = '96891103640'
-global.ownername = '♛ الامبراطور اياتو ♛'
-global.botname = '♛ غوجو بوت ♛'
-global.footer = ' غوجو بوت ♛'
+global.owner = ['201013886848']
+global.premium = ['201013886848']
+global.ownernomer = '201013886848'
+global.ownername = '♛Mád♛'
+global.botname = '♛MádBot♛'
+global.footer = ' Mád.♛'
 global.ig = 'https://github.com/nexusNw'
-global.region = 'India, South India, Kerala'
-global.sc = 'https://chat.whatsapp.com/CKLmAGJo3iw5AvNM1KZee3'
-global.myweb = 'https://youtube.com/channel/UCPvrnWknQrgCSIeobXMP0Uw'
-global.packname = 'https://Wa.Me/+96891103640'
-global.author = '[ غـوجـو ]'
+global.region = 'Who knows?'
+global.sc = 'https://chat.whatsapp.com/IEZhOevPUYrBHpcsdwr8Pw'
+global.myweb = 'https://chat.whatsapp.com/IEZhOevPUYrBHpcsdwr8Pw'
+global.packname = 'Mád.'
+global.author = '[ SENIOR MAD ]'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: '✓',
-    admin: '*「 هـذا الامـر فـقـط لـ المـشـرفـيـن 」◣*',
-    botAdmin: '*「 اعـطـنـي إشـراف لـتـفـعـيـل  الامـر 」◣*',
-    owner: '*「 هـذا الامـر فـقـط لـ الـمـالـك 」◣*',
+    success: 'تم بحمدالله.',
+    admin: '*「 هـذا الامـر فـقـط لـلمـشـرفـيـن 」◣*',
+    botAdmin: '*「🤡 اعـطـنـي إشـراف لـتـفـعـيـل  الامـر 」◣*',
+    owner: '* هـذا الامـر فـقـط لـمـاد. 」◣*',
     group: '*「 هـذا الامـر فـي الـمـجـمـوعـات فـقـط 」◣*',
     private: '*「 هـذا الامـر فـي الـخـاص فـقـط 」◣*',
     bot: '*「 هـذا الامـر مـخـصـص لـ الـبـوت 」◣*',
-    wait: '*「 انـتـظـر مـن فـضـلـك 」◣*',
+    wait: '*「  🤡انـتـظـر مـن فـضـلـك 」◣*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 1000 Hours',
 }
