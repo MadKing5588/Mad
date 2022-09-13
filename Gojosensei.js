@@ -1443,7 +1443,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!isAdmins) return replay(`${mess.admin}`)
 let teks = `「المنشن الجماعي」◣
  
- ➲ *${q ? q : 'اصحو من النوم'}*\n\n`
+ ➲ *${q ? q : 'اصحوا من النوم'}*\n\n`
                 for (let mem of participants) {
                 teks += `👤 @${mem.id.split('@')[0]}\n`
                 }
@@ -3455,18 +3455,18 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 GojoMdNx.relayMessage(m.chat, template.message, { messageId: template.key.id })
                 }
                 break
-	case 'الاوامر': case 'اوامر': {
+	case 'الأوامر': case 'أوامر': {
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `「 مرحبا 👋🏻  」◣
+                    title: `「 السلام عليكم 👋🏻  」◣
 		    「 أنا مـاد تـشـرفـت بـلـقـائـك 🐦」◣
-		    「 انت كلاون رائع 🤡 」◣
+		    「 أنت كلاون رائع 🤡 」◣
  「 رابط فرع الأذكار 」◣
 		    「https://chat.whatsapp.com/IEZhOevPUYrBHpcsdwr8Pw」◣
 		    「 شاركنا الأجر وإنضم 」◣`,
                     description: `「 اختر قائمة من فضلك 」◣`,
                     buttonText: "「 القائمة 」◣",
-                    footerText: `「 تحت الصيانة ⚙️」◣`,
+                    footerText: `「 صل على النبي محمد ✨」◣`,
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "قائمة الخيارات",
@@ -3551,20 +3551,20 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "الأذكار.",
+								"title": "نبذة",
 								"rows": [
 									{
-										"title": "جروب الأذكار.",
+										"title": "نبذة عن ماد 😧",
 										"description": ".17.",
 										"rowId": `${prefix}anon`
 									}
 								]
 							},
 							{
-								"title": "نبذة",
+								"title": "الأذكار ❤️",
 								"rows": [
 									{
-										"title": "نبذة عن ماد.",
+										"title": "جـروب الأذكـار 💞.",
 										"description": ".18.",
 										"rowId": `${prefix}tqtt`
 									}
@@ -3901,7 +3901,7 @@ case 'anon':
 var unicorn = await getBuffer(picak+'.17.')
 await GojoMdNx.send5ButImg(from, `` + '' + ' ', `
 ┏━「 ${botname} 」━━⭓ 
-┃ خدعة 🤡 يا كلاون 
+┃ حسنا . إنه موضوع معقد، لذلك دعنا لا نتحدث فيه. 😖
 ┃╚═════════════✪
 ┗━━「 ${pushname} 」━⭓`,unicorn, [{"urlButton": {"displayText": "「 قناتي 」「📍」◣","url": `${myweb}`}},{"urlButton": {"displayText": "「 رابط الاستقبال 」「📌」◣","url": `${sc}`}},{"quickReplyButton": {"displayText": "「 الاستلام 」「🍜」◣","id": 'donate'}},{"quickReplyButton": {"displayText": "「 المالك 」「👤」◣","id": 'owner'}}] )
 break
